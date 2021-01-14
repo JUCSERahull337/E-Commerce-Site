@@ -1,0 +1,85 @@
+body{
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    /* font-family: 'Imbue', serif; */
+    font-family: 'Bebas Neue', cursive
+    
+}
+.header-img img{
+    width: 400px;
+    height: 400px;
+}
+.colored-text{
+    color: rgb(42, 42, 85);
+    
+
+}
+.colored-button button{
+   
+    background-color: rgb(135, 201, 30);
+    color: white;
+}
+
+
+.container-fluid img{
+    width: 200px;
+    height: 40px;
+
+}
+.cart-img img{
+    /* border: lightgreen 2px solid; */
+    width: 100px;
+    height: 100px;
+}
+.woman-card{
+    border: 0;
+}
+.woman-card-footer{
+    border: 0;
+}
+
+.woman-card img{
+    /* border: crimson 2px solid; */
+    width: 370px;
+    height: 350px;
+    background-color: rgba(211, 211, 211, 0.781);
+    border-radius: 5%;
+
+}
+.man-card img{
+    /* border: crimson 2px solid; */
+    width: 370px;
+    height: 330px;
+    background-color: rgba(211, 211, 211, 0.781);
+    border-radius: 5%;
+
+}
+.man-card{
+    border: 0;
+}
+.man-card-footer{
+    border: 0;
+}
+.cart-container{
+    height: 150px;
+    
+}
+.cart-div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.header-section{
+    background-color: rgb(240, 224, 239);
+    
+}
+
+
+@media (max-width: 760px){
+    .cart-div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   
+
+}

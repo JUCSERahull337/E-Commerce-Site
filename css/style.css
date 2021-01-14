@@ -80,6 +80,15 @@ body{
         display: flex;
         flex-direction: column-reverse;
     }
-   
 
+}
+@media (max-width:990px){
+    .colored-button{
+        display: inline;
+        flex-direction: column;
+        width: 150px;
+        align-items: center;
+        justify-items: center;
+        margin: auto;
+    }
 }
